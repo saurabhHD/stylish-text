@@ -1,0 +1,62 @@
+charset "utf-8"
+
+body{
+				background-color: #f5f8fc;
+			}
+			.fancytext:focus
+			{
+				outline: none !important;
+				box-shadow: none !important;
+			}
+			
+			.text-box:hover{
+				 box-shadow: 7px 5px 31px 4px #ccc;
+				 margin-bottom: 10px;
+				 border-radius: 10px;
+
+			}
+			.copy-btn{
+				margin-right: 0;
+				font-size: 25px;
+				color: #ccc; 
+			}
+			.copy-btn:hover{
+				cursor: pointer;
+				color: #1DA1F2;
+			}
+			.text{
+				color: #323232;
+			}
+			.sk-text:hover{
+				box-shadow: 7px 5px 31px 4px #ccc;
+
+			}
+			.copybutton{
+				cursor: pointer;
+				background-color: #fff;
+				border:none;
+			}
+			.input-group input{
+				background-color: #fff !important;
+				border:none;
+			}
+			.input-group:hover{
+				box-shadow: 7px 5px 31px 4px #ccc;
+			}
+			.input-group{
+				padding: 10px;
+			}
+			.share-icons:hover{
+				box-shadow: 7px 5px 31px 4px #ccc;
+			}
+			.share-icons{
+				cursor: pointer !important;
+			}
+
+			.ok:hover{
+				border-bottom:3px solid #2A81FB !important;
+				border-radius: 10px !important;
+			}
+			.form-control:focus{
+				box-shadow: none !important;
+			}
