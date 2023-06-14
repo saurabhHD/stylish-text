@@ -31,7 +31,21 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<?php require_once('header.php');?>
+	<nav class="navbar navbar-expand-lg navbar-light border-0 shadow-sm mb-5 py-3">
+		<a class="navbar-brand p-0 m-0" href="#"><img src="images/logo.png" width="90" height="50"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		  <div class="navbar-nav ml-auto">
+			<a class="nav-link active font-weight-bold" href="/">Home</a>
+			<a class="nav-link " href="about-us.html">About Us</a>
+			<a class="nav-link " href="privacy.html">Privacy</a>
+			<a class="nav-link " href="terms.html">Terms</a>
+			<a class="nav-link " href="contact-us.html">Contact Us</a>
+		  </div>
+		</div>
+  </nav>
 	<div class="container-fluid mb-3">
 	<div class="row">
 		<div class="col-md-1 "></div>
@@ -242,7 +256,35 @@ We have not added any option to upload .doc, .docx or .txt file. Because we don'
 </div>
 <div class="container-fluid pt-3 shadow-lg" style="background-color: #162447;z-index: 2">
 <div class="container">
-<?php require_once('footer.php');?>
+	<footer class="mt-4">
+		<div class="row">
+			<div class="col-md-4 mb-3">
+				<p class="text-white font-weight-bold">Pages</p>
+	
+	
+	
+				<p><a href="contact-us" class="text-decoration-none text-light">Contact Us</a></p>
+				<p><a href="about-us" class="text-decoration-none text-light">About Us</a></p>
+				<p><a href="privacy" class="text-decoration-none text-light">Privacy Policy</a></p>
+				<p><a href="terms" class="text-decoration-none text-light">Terms</a></p>
+			</div>
+			<div class="col-md-4 mb-3">
+				<p class="text-white font-weight-bold">Social Links</p>
+				<p><a href="#" class="text-decoration-none text-light"><i class="fa fa-facebook"></i> Facebook</a></p>
+				<p><a href="#" class="text-decoration-none text-light"><i class="fa fa-youtube"></i> Youtube</a></p>
+				<p><a href="#" class="text-decoration-none text-light"><i class="fa fa-linkedin"></i> Linkedin</a></p>
+				<p><a href="#" class="text-decoration-none text-light"><i class="fa fa-telegram"></i> Telegram</a></p>
+			</div>
+			<div class="col-md-4">
+				<p class="text-white font-weight-bold">Developer Info</p>
+				<p class="text-white">
+					<address class="text-white">This Website completely developed by <a class="fs-primary main-color" href="https://linktr.ee/saurabhhd">@saurabhHD</a><br>
+					
+					</address>
+				</p>
+			</div>
+		</div>
+	</footer>
 </div>
 </div>
 <div class="modal mt-3" id="sk">
